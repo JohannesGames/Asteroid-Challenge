@@ -2,9 +2,9 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+[RequireComponent(typeof(WrapObject))]
 public class Asteroid : MonoBehaviour
 {
-
     public enum AsteroidSize
     {
         Big,
@@ -29,17 +29,7 @@ public class Asteroid : MonoBehaviour
     [Header("Asteroid Chunk")]
     [SerializeField] Asteroid mainAsteroid;
     Vector3 moveDirection;
-
-    // Wrapping
-    Vector3 screenPos;
-    enum WrapRequired
-    {
-        Top,
-        Bottom,
-        Left,
-        Right
-    }
-
+    
     // called when big asteroid is spawned and when asteroid chunk is shot off
     public void AsteroidHit()
     {
@@ -83,6 +73,7 @@ public class Asteroid : MonoBehaviour
         rotationSpeed = Random.Range(rotationSpeed / 2, rotationSpeed);
         mainAsteroid = null;
         GameManager.gm.AddPoints(GameManager.PointEvent.chunkHit);
+        GetComponent<WrapObject>().enabled = true;
     }
 
     public void RemoveChunk(Asteroid toRemove)
@@ -116,9 +107,6 @@ public class Asteroid : MonoBehaviour
     {
         if (isActive)
         {
-            // check if asteroid's world position is within screenspace
-            IsOnScreen();
-
             // if chunk, move without rigidbody
             if (asteroidSize == AsteroidSize.Chunk) MoveChunk();
 
@@ -127,57 +115,4 @@ public class Asteroid : MonoBehaviour
         }
     }
 
-    void IsOnScreen()
-    {
-        screenPos = GameManager.gm.mainCamera.WorldToScreenPoint(transform.position);
-        // check x is within screen bounds
-        if (screenPos.x < 0)
-        {
-            WrapObject(WrapRequired.Right);
-        }
-        if (screenPos.x > GameManager.gm.mainCamera.pixelWidth)
-        {
-            WrapObject(WrapRequired.Left);
-        }
-        // check y is within screen bounds
-        if (screenPos.y < 0)
-        {
-            WrapObject(WrapRequired.Top);
-        }
-        if (screenPos.y > GameManager.gm.mainCamera.pixelHeight)
-        {
-            WrapObject(WrapRequired.Bottom);
-        }
-    }
-
-    void WrapObject(WrapRequired wrapReq)
-    {
-        switch (wrapReq)
-        {
-            case WrapRequired.Top:
-                screenPos = new Vector3(screenPos.x, GameManager.gm.mainCamera.pixelHeight, screenPos.z);
-                newWorldPos = GameManager.gm.mainCamera.ScreenToWorldPoint(screenPos);
-                newWorldPos.y = 0;
-                transform.position = newWorldPos;
-                break;
-            case WrapRequired.Bottom:
-                screenPos = new Vector3(screenPos.x, 0, screenPos.z);
-                newWorldPos = GameManager.gm.mainCamera.ScreenToWorldPoint(screenPos);
-                newWorldPos.y = 0;
-                transform.position = newWorldPos;
-                break;
-            case WrapRequired.Left:
-                screenPos = new Vector3(0, screenPos.y, screenPos.z);
-                newWorldPos = GameManager.gm.mainCamera.ScreenToWorldPoint(screenPos);
-                newWorldPos.y = 0;
-                transform.position = newWorldPos;
-                break;
-            case WrapRequired.Right:
-                screenPos = new Vector3(GameManager.gm.mainCamera.pixelWidth, screenPos.y, screenPos.z);
-                newWorldPos = GameManager.gm.mainCamera.ScreenToWorldPoint(screenPos);
-                newWorldPos.y = 0;
-                transform.position = newWorldPos;
-                break;
-        }
-    }
 }

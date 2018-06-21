@@ -61,6 +61,7 @@ public class MainMenuUI : MonoBehaviour
         {
             // return to main menu
             SwitchToMainMenu();
+            GameManager.gm.EndRound();
         }
     }
 
@@ -79,8 +80,9 @@ public class MainMenuUI : MonoBehaviour
         if (!GameManager.gm.duringTimeline)
         {
             moveButton = true;
+            GameManager.gm.currentScore = 0;
             GameManager.gm.inGame = true;
-            GameManager.gm.AddIntensity(50, 0);
+            //GameManager.gm.AddIntensity(50, 0);
             switchToGame.Play();
             openingTimeline.Stop();
             switchToMenu.Stop();
@@ -89,7 +91,7 @@ public class MainMenuUI : MonoBehaviour
 
     public void SwitchToMainMenu()
     {
-        moveButton = GameManager.gm.mainCamera.orthographic = GameManager.gm.inGame = false;
+        moveButton = GameManager.gm.inGame = false;
         switchToMenu.Play();
         switchToGame.Stop();
         openingTimeline.Stop();

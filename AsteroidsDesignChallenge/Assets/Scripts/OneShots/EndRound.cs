@@ -6,7 +6,6 @@ public class EndRound : MonoBehaviour
 {
     void OnEnable()
     {
-        GameManager.gm.currentScore = 0;
         GameManager.gm.scoreText.text = "";
         GameManager.gm.mainCamera.orthographic = false;
     }

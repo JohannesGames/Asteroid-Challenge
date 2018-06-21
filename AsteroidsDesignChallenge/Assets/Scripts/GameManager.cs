@@ -9,6 +9,13 @@ public class GameManager : MonoBehaviour
     public Camera mainCamera;
     public bool inGame;
     public bool duringTimeline; // can't click if in timeline
+
+    //PC
+    [Header("PC")]
+    public ControlPC pcPrefab;
+    [HideInInspector]
+    public ControlPC pc;
+
     [Header("Asteroid Spawning")]
     public Asteroid[] asteroidPrefabs;
     Asteroid spawnedAsteroid;
@@ -30,12 +37,18 @@ public class GameManager : MonoBehaviour
     public float shakeFrequency = .45f;
 
     // Points
-    [Header("Points")]
+    [Header("Points & Lives")]
     public int currentScore;
     public TMPro.TextMeshProUGUI scoreText;
     [SerializeField] int pointsChunkHit;
     [SerializeField] int pointsChunkDestroyed;
     [SerializeField] int pointsAsteroidSplit;
+    [SerializeField] TMPro.TextMeshProUGUI livesText;
+    [Tooltip("0 if infinite")]
+    public int maxLives;
+    public int startingLives;
+    [Tooltip("New life gained every __ points")]
+    public int newLifeEvery;
 
     public enum PointEvent
     {
@@ -100,10 +113,16 @@ public class GameManager : MonoBehaviour
 
     public void SpawnAsteroid()
     {
-        // Instantiate an asteroid
-        spawnedAsteroid = Instantiate(asteroidPrefabs[Random.Range(0, asteroidPrefabs.Length)]);
-        spawnedAsteroid.transform.position = ChooseAsteroidSpawnLocation();
-        spawnedAsteroid.AsteroidHit();
+        // Instantiate asteroids
+        for (int i = 0; i < 5; i++)
+        {
+            spawnedAsteroid = Instantiate(asteroidPrefabs[Random.Range(0, asteroidPrefabs.Length)]);
+            spawnedAsteroid.transform.position = ChooseAsteroidSpawnLocation();
+            spawnedAsteroid.AsteroidHit();
+        }
+
+        // Spawn PC
+        pc = Instantiate(pcPrefab, Vector3.zero, Quaternion.identity);
     }
 
     Vector3 ChooseAsteroidSpawnLocation()
@@ -140,6 +159,11 @@ public class GameManager : MonoBehaviour
         return asteroidSpawnLocation;
     }
 
+    public void EndRound()
+    {
+        Destroy(pc.gameObject);
+    }
+
     #region Points
     public void AddPoints(PointEvent pe)
     {
@@ -158,6 +182,13 @@ public class GameManager : MonoBehaviour
 
         scoreText.text = currentScore.ToString();
         scoreText.transform.localScale = new Vector3(1.5f, 1.5f, 1.5f);
+
+        // check if enough points for new life
+        if (currentScore % newLifeEvery == 0)
+        {
+            pc.AddLife();
+            livesText.text = pc.currentLives.ToString();
+        }
     }
 
     void ScoreAnimation()
