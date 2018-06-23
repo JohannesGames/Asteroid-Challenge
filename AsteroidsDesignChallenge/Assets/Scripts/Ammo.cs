@@ -26,24 +26,11 @@ public class Ammo : MonoBehaviour
 
     private void FixedUpdate()
     {
-        asteroidsHit = Physics.OverlapSphere(transform.position, .25f, GameManager.gm.asteroidLayer);
+        asteroidsHit = Physics.OverlapCapsule(transform.position + Vector3.up * 20, transform.position + Vector3.down * 20, .25f, GameManager.gm.asteroidLayer);
         if (asteroidsHit.Length > 0)
         {
-            for (int i = 0; i < asteroidsHit.Length; i++)
-            {
-                asteroidsHit[i].GetComponent<Asteroid>().AsteroidHit();
-            }
-            Destroy(gameObject);
-        }
-    }
-
-    private void OnTriggerEnter(Collider other)
-    {
-        if (!hitAsteroid)
-        {
-            // when ammo hits asteroid
-            other.gameObject.GetComponent<Asteroid>().AsteroidHit();
-            hitAsteroid = true;
+            asteroidsHit[0].GetComponent<AsteroidChunk>().AsteroidInteraction();
+            Instantiate(GameManager.gm.ammoHitParticle, asteroidsHit[0].transform.position + Vector3.up, Quaternion.identity);
             Destroy(gameObject);
         }
     }

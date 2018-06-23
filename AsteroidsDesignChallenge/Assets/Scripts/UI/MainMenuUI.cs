@@ -61,6 +61,7 @@ public class MainMenuUI : MonoBehaviour
         {
             // return to main menu
             SwitchToMainMenu();
+            GameManager.gm.highScorePanel.gameObject.SetActive(false);
             GameManager.gm.EndRound();
         }
     }

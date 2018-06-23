@@ -13,6 +13,6 @@ public class BeginRound : MonoBehaviour
 
     void Spawn()
     {
-        GameManager.gm.SpawnAsteroid();
+        GameManager.gm.BeginRound();
     }
 }

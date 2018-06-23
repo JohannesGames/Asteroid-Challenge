@@ -22,8 +22,7 @@ GameObject:
   - component: {fileID: 114633535551433238}
   - component: {fileID: 33603312736691590}
   - component: {fileID: 23683448120552888}
-  - component: {fileID: 136598391558645540}
-  m_Layer: 10
+  m_Layer: 0
   m_Name: Ammo
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -98,16 +97,3 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   lifeTime: 3
   speed: 18
---- !u!136 &136598391558645540
-CapsuleCollider:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1582253744738164}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 0
-  m_Radius: 0.75
-  m_Height: 6
-  m_Direction: 1
-  m_Center: {x: 0, y: 0, z: 0}

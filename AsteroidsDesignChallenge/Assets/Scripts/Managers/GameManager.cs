@@ -1,14 +1,20 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 using Cinemachine;
 
 public class GameManager : MonoBehaviour
 {
     public static GameManager gm;
+    public WaveManager waveManagerPrefab;
+    [HideInInspector]
+    public WaveManager wm;
     public Camera mainCamera;
     public bool inGame;
     public bool duringTimeline; // can't click if in timeline
+
+    public LayerMask asteroidLayer;
 
     //PC
     [Header("PC")]
@@ -16,12 +22,10 @@ public class GameManager : MonoBehaviour
     [HideInInspector]
     public ControlPC pc;
 
-    [Header("Asteroid Spawning")]
-    public Asteroid[] asteroidPrefabs;
-    Asteroid spawnedAsteroid;
-    int ranSpawnChoice;
-    Vector3 asteroidSpawnLocation;
-    public LayerMask asteroidLayer;
+    [Header("Particles")]
+    public ParticleSystem pcHitParticle;
+    public ParticleSystem ammoHitParticle;
+
 
     [Header("Camera Shake")]
     Cinemachine.CinemachineBrain mainCameraBrain;
@@ -43,12 +47,15 @@ public class GameManager : MonoBehaviour
     [SerializeField] int pointsChunkHit;
     [SerializeField] int pointsChunkDestroyed;
     [SerializeField] int pointsAsteroidSplit;
-    [SerializeField] TMPro.TextMeshProUGUI livesText;
+    public TMPro.TextMeshProUGUI livesText;
+    [SerializeField] Text highScore;
+    public RectTransform highScorePanel;
     [Tooltip("0 if infinite")]
     public int maxLives;
     public int startingLives;
     [Tooltip("New life gained every __ points")]
     public int newLifeEvery;
+    int nextLifeAt;
 
     public enum PointEvent
     {
@@ -74,6 +81,16 @@ public class GameManager : MonoBehaviour
         IntensityManager();
 
         ScoreAnimation();
+    }
+
+    public void BeginRound()
+    {
+        pc = Instantiate(pcPrefab, Vector3.zero, Quaternion.identity);
+        pc.currentLives = startingLives;
+        livesText.text = startingLives.ToString();
+        wm = Instantiate(waveManagerPrefab);
+        nextLifeAt = newLifeEvery;
+        wm.SpawnWave();
     }
 
     void IntensityManager()
@@ -111,57 +128,24 @@ public class GameManager : MonoBehaviour
         newFrequencyIntensity = newFrequencyIntensity + addFrequency;
     }
 
-    public void SpawnAsteroid()
+    public void OutOfLives()
     {
-        // Instantiate asteroids
-        for (int i = 0; i < 5; i++)
-        {
-            spawnedAsteroid = Instantiate(asteroidPrefabs[Random.Range(0, asteroidPrefabs.Length)]);
-            spawnedAsteroid.transform.position = ChooseAsteroidSpawnLocation();
-            spawnedAsteroid.AsteroidHit();
-        }
-
-        // Spawn PC
-        pc = Instantiate(pcPrefab, Vector3.zero, Quaternion.identity);
+        // Particle effect
+        // Show score
+        scoreText.gameObject.SetActive(false);
+        highScorePanel.gameObject.SetActive(true);
+        highScore.text = currentScore.ToString();
+        // End round
+        EndRound();
     }
 
-    Vector3 ChooseAsteroidSpawnLocation()
-    {
-        asteroidSpawnLocation = Vector3.zero;
-        // choose a side of the screen
-        ranSpawnChoice = Random.Range(0, 4);
-        switch (ranSpawnChoice)
-        {
-            case 0:
-                // spawn top
-                asteroidSpawnLocation = mainCamera.ScreenToWorldPoint(new Vector3(Random.Range(0, mainCamera.pixelWidth), mainCamera.pixelHeight, 0));
-                asteroidSpawnLocation.y = 0;
-                break;
-            case 1:
-                // spawn bottom
-                asteroidSpawnLocation = mainCamera.ScreenToWorldPoint(new Vector3(Random.Range(0, mainCamera.pixelWidth), 0, 0));
-                asteroidSpawnLocation.y = 0;
-                break;
-            case 2:
-                // spawn left
-                asteroidSpawnLocation = mainCamera.ScreenToWorldPoint(new Vector3(0, Random.Range(0, mainCamera.pixelHeight), 0));
-                asteroidSpawnLocation.y = 0;
-                break;
-            case 3:
-                // spawn right
-                asteroidSpawnLocation = mainCamera.ScreenToWorldPoint(new Vector3(mainCamera.pixelWidth, Random.Range(0, mainCamera.pixelHeight), 0));
-                asteroidSpawnLocation.y = 0;
-                break;
-            default:
-                break;
-        }
-
-        return asteroidSpawnLocation;
-    }
 
     public void EndRound()
     {
-        Destroy(pc.gameObject);
+        if (pc)
+        {
+            Destroy(pc.gameObject);
+        }
     }
 
     #region Points
@@ -184,8 +168,9 @@ public class GameManager : MonoBehaviour
         scoreText.transform.localScale = new Vector3(1.5f, 1.5f, 1.5f);
 
         // check if enough points for new life
-        if (currentScore % newLifeEvery == 0)
+        if (currentScore >= nextLifeAt)
         {
+            nextLifeAt += newLifeEvery;
             pc.AddLife();
             livesText.text = pc.currentLives.ToString();
         }

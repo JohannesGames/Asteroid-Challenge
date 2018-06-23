@@ -27,6 +27,14 @@ public class ControlPC : MonoBehaviour
     float inputVertical;
     Vector3 moveDirection;
 
+    // damage
+    [Header("Damage")]
+    [Tooltip("How long after being hit is PC invulnerable")]
+    [SerializeField] float damageGracePeriod;
+    float gracePeriodTimer;
+    bool wasHit;
+    Collider[] hitBy;
+    AsteroidChunk chunkHit;
 
     void Start()
     {
@@ -36,8 +44,25 @@ public class ControlPC : MonoBehaviour
 
     void Update()
     {
-        if (GameManager.gm.inGame) GetPlayerInput();
+        if (GameManager.gm.inGame)
+        {
+            GetPlayerInput();
+
+            // if was hit, make invulnerable for some time
+            if (wasHit)
+            {
+                CheckGracePeriod();
+            }
+        }
         MovePC();
+    }
+
+    private void FixedUpdate()
+    {
+        if (GameManager.gm.inGame && !wasHit)
+        {
+            CheckCollision();
+        }
     }
 
     void GetPlayerInput()
@@ -92,8 +117,60 @@ public class ControlPC : MonoBehaviour
         currentLives++;
     }
 
-    public void RemoveLife()
+    public bool RemoveLife()
     {
         currentLives--;
+
+        // if lives remain keep playing
+        if (currentLives < 0)
+        {
+            currentLives = 0;
+            return false;
+        }
+        else return true;
+    }
+
+    void CheckCollision()
+    {
+        // check for asteroid collision
+        hitBy = Physics.OverlapCapsule(transform.position + Vector3.up * 10,
+            transform.position + Vector3.down * 10, .4f, GameManager.gm.asteroidLayer);
+
+        if (hitBy.Length > 0)
+        {
+            wasHit = true;
+            chunkHit = hitBy[0].GetComponent<AsteroidChunk>();
+            // if any collision detected
+            Debug.Log("PC hit chunk");
+            // if PC still has lives remaining
+            if (chunkHit && RemoveLife())
+            {
+                GameManager.gm.livesText.text = currentLives.ToString();
+                // if attached to big asteroid
+                if (chunkHit.mainAsteroid)
+                {
+                    chunkHit.mainAsteroid.RemoveChunk(chunkHit);
+                    chunkHit.mainAsteroid.rb.AddTorque(chunkHit.mainAsteroid.randomVector + chunkHit.randomVector * 100);
+                }
+            }
+            else
+            {
+                // if out of lives
+                GameManager.gm.OutOfLives();
+            }
+            Destroy(chunkHit.gameObject);
+            chunkHit = null;
+            Instantiate(GameManager.gm.pcHitParticle, transform.position, Quaternion.identity);
+        }
+    }
+
+    void CheckGracePeriod()
+    {
+        gracePeriodTimer += Time.deltaTime;
+        if (gracePeriodTimer >= damageGracePeriod)
+        {
+            gracePeriodTimer = 0;
+            wasHit = false;
+        }
     }
 }
