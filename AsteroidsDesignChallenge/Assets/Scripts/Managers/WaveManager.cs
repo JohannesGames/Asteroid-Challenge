@@ -109,7 +109,7 @@ public class WaveManager : MonoBehaviour
         asteroidsRemaining.Remove(_ast);
 
         // if no asteroids or chunks left, move to next wave
-        if (! spawning && asteroidsRemaining.Count == 0 && chunksRemaining.Count == 0)
+        if (!spawning && asteroidsRemaining.Count == 0 && chunksRemaining.Count == 0)
         {
             spawning = true;
             SpawnWave();

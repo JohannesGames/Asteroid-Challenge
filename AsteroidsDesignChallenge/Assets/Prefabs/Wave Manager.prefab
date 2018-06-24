@@ -58,10 +58,24 @@ MonoBehaviour:
     hugeCount: 0
   - bigCount: 4
     hugeCount: 0
-  - bigCount: 8
-    hugeCount: 0
   - bigCount: 0
     hugeCount: 1
+  - bigCount: 2
+    hugeCount: 0
+  - bigCount: 4
+    hugeCount: 0
+  - bigCount: 4
+    hugeCount: 1
+  - bigCount: 8
+    hugeCount: 0
+  - bigCount: 4
+    hugeCount: 0
+  - bigCount: 8
+    hugeCount: 0
+  - bigCount: 4
+    hugeCount: 2
+  - bigCount: 4
+    hugeCount: 3
   asteroidPrefabsBig:
   - {fileID: 114696641566056816, guid: 37d2486f7b5630840a77faa12271927e, type: 2}
   - {fileID: 114656887850689862, guid: 5e43e813ce4fad449bcc5c9860ff190f, type: 2}

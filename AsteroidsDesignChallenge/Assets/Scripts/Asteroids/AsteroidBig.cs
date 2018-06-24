@@ -52,6 +52,16 @@ public class AsteroidBig : Asteroid
                 }
                 GameManager.gm.AddPoints(GameManager.PointEvent.asteroidSplit);
                 GameManager.gm.wm.RemoveAsteroid(this);
+
+                // double check all children in hierarchy are gone
+                if (transform.childCount != 0)
+                {
+                    for (int i = transform.childCount - 1; i >= 0; i--)
+                    {
+                        transform.GetChild(i).GetComponent<AsteroidChunk>().AsteroidInteraction();
+                    }
+                }
+
                 Destroy(gameObject);
             }
         }

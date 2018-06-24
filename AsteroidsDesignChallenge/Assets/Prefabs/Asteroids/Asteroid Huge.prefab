@@ -10693,8 +10693,7 @@ MonoBehaviour:
   rotationSpeed: 0
   isActive: 0
   randomVector: {x: 0, y: 0, z: 0}
-  mainAsteroid: {fileID: 114696641566056816, guid: 37d2486f7b5630840a77faa12271927e,
-    type: 2}
+  mainAsteroid: {fileID: 114221351320257564}
   hitForceBig: 100
   hitForceHuge: 20
   particleTrail: {fileID: 198359695621395498, guid: d57ecc90b7279154693db17bf1e0b76e,
@@ -10715,8 +10714,7 @@ MonoBehaviour:
   rotationSpeed: 0
   isActive: 0
   randomVector: {x: 0, y: 0, z: 0}
-  mainAsteroid: {fileID: 114696641566056816, guid: 37d2486f7b5630840a77faa12271927e,
-    type: 2}
+  mainAsteroid: {fileID: 114221351320257564}
   hitForceBig: 100
   hitForceHuge: 20
   particleTrail: {fileID: 198359695621395498, guid: d57ecc90b7279154693db17bf1e0b76e,
@@ -10737,8 +10735,7 @@ MonoBehaviour:
   rotationSpeed: 0
   isActive: 0
   randomVector: {x: 0, y: 0, z: 0}
-  mainAsteroid: {fileID: 114696641566056816, guid: 37d2486f7b5630840a77faa12271927e,
-    type: 2}
+  mainAsteroid: {fileID: 114221351320257564}
   hitForceBig: 100
   hitForceHuge: 20
   particleTrail: {fileID: 198359695621395498, guid: d57ecc90b7279154693db17bf1e0b76e,
@@ -10759,8 +10756,7 @@ MonoBehaviour:
   rotationSpeed: 0
   isActive: 0
   randomVector: {x: 0, y: 0, z: 0}
-  mainAsteroid: {fileID: 114696641566056816, guid: 37d2486f7b5630840a77faa12271927e,
-    type: 2}
+  mainAsteroid: {fileID: 114221351320257564}
   hitForceBig: 100
   hitForceHuge: 20
   particleTrail: {fileID: 198359695621395498, guid: d57ecc90b7279154693db17bf1e0b76e,
@@ -10781,8 +10777,7 @@ MonoBehaviour:
   rotationSpeed: 0
   isActive: 0
   randomVector: {x: 0, y: 0, z: 0}
-  mainAsteroid: {fileID: 114696641566056816, guid: 37d2486f7b5630840a77faa12271927e,
-    type: 2}
+  mainAsteroid: {fileID: 114221351320257564}
   hitForceBig: 100
   hitForceHuge: 20
   particleTrail: {fileID: 198359695621395498, guid: d57ecc90b7279154693db17bf1e0b76e,
@@ -10803,8 +10798,7 @@ MonoBehaviour:
   rotationSpeed: 0
   isActive: 0
   randomVector: {x: 0, y: 0, z: 0}
-  mainAsteroid: {fileID: 114696641566056816, guid: 37d2486f7b5630840a77faa12271927e,
-    type: 2}
+  mainAsteroid: {fileID: 114221351320257564}
   hitForceBig: 100
   hitForceHuge: 20
   particleTrail: {fileID: 198359695621395498, guid: d57ecc90b7279154693db17bf1e0b76e,
@@ -10825,8 +10819,7 @@ MonoBehaviour:
   rotationSpeed: 0
   isActive: 0
   randomVector: {x: 0, y: 0, z: 0}
-  mainAsteroid: {fileID: 114696641566056816, guid: 37d2486f7b5630840a77faa12271927e,
-    type: 2}
+  mainAsteroid: {fileID: 114221351320257564}
   hitForceBig: 100
   hitForceHuge: 20
   particleTrail: {fileID: 198359695621395498, guid: d57ecc90b7279154693db17bf1e0b76e,
@@ -10858,8 +10851,7 @@ MonoBehaviour:
   rotationSpeed: 0
   isActive: 0
   randomVector: {x: 0, y: 0, z: 0}
-  mainAsteroid: {fileID: 114696641566056816, guid: 37d2486f7b5630840a77faa12271927e,
-    type: 2}
+  mainAsteroid: {fileID: 114221351320257564}
   hitForceBig: 100
   hitForceHuge: 20
   particleTrail: {fileID: 198359695621395498, guid: d57ecc90b7279154693db17bf1e0b76e,
@@ -10880,8 +10872,7 @@ MonoBehaviour:
   rotationSpeed: 0
   isActive: 0
   randomVector: {x: 0, y: 0, z: 0}
-  mainAsteroid: {fileID: 114696641566056816, guid: 37d2486f7b5630840a77faa12271927e,
-    type: 2}
+  mainAsteroid: {fileID: 114221351320257564}
   hitForceBig: 100
   hitForceHuge: 20
   particleTrail: {fileID: 198359695621395498, guid: d57ecc90b7279154693db17bf1e0b76e,
@@ -10902,8 +10893,7 @@ MonoBehaviour:
   rotationSpeed: 0
   isActive: 0
   randomVector: {x: 0, y: 0, z: 0}
-  mainAsteroid: {fileID: 114696641566056816, guid: 37d2486f7b5630840a77faa12271927e,
-    type: 2}
+  mainAsteroid: {fileID: 114221351320257564}
   hitForceBig: 100
   hitForceHuge: 20
   particleTrail: {fileID: 198359695621395498, guid: d57ecc90b7279154693db17bf1e0b76e,
@@ -10957,8 +10947,7 @@ MonoBehaviour:
   rotationSpeed: 0
   isActive: 0
   randomVector: {x: 0, y: 0, z: 0}
-  mainAsteroid: {fileID: 114696641566056816, guid: 37d2486f7b5630840a77faa12271927e,
-    type: 2}
+  mainAsteroid: {fileID: 114221351320257564}
   hitForceBig: 100
   hitForceHuge: 20
   particleTrail: {fileID: 198359695621395498, guid: d57ecc90b7279154693db17bf1e0b76e,
@@ -11045,8 +11034,7 @@ MonoBehaviour:
   rotationSpeed: 0
   isActive: 0
   randomVector: {x: 0, y: 0, z: 0}
-  mainAsteroid: {fileID: 114696641566056816, guid: 37d2486f7b5630840a77faa12271927e,
-    type: 2}
+  mainAsteroid: {fileID: 114221351320257564}
   hitForceBig: 100
   hitForceHuge: 20
   particleTrail: {fileID: 198359695621395498, guid: d57ecc90b7279154693db17bf1e0b76e,
@@ -11067,8 +11055,7 @@ MonoBehaviour:
   rotationSpeed: 0
   isActive: 0
   randomVector: {x: 0, y: 0, z: 0}
-  mainAsteroid: {fileID: 114696641566056816, guid: 37d2486f7b5630840a77faa12271927e,
-    type: 2}
+  mainAsteroid: {fileID: 114221351320257564}
   hitForceBig: 100
   hitForceHuge: 20
   particleTrail: {fileID: 198359695621395498, guid: d57ecc90b7279154693db17bf1e0b76e,
@@ -11089,8 +11076,7 @@ MonoBehaviour:
   rotationSpeed: 0
   isActive: 0
   randomVector: {x: 0, y: 0, z: 0}
-  mainAsteroid: {fileID: 114696641566056816, guid: 37d2486f7b5630840a77faa12271927e,
-    type: 2}
+  mainAsteroid: {fileID: 114221351320257564}
   hitForceBig: 100
   hitForceHuge: 20
   particleTrail: {fileID: 198359695621395498, guid: d57ecc90b7279154693db17bf1e0b76e,
@@ -11122,8 +11108,7 @@ MonoBehaviour:
   rotationSpeed: 0
   isActive: 0
   randomVector: {x: 0, y: 0, z: 0}
-  mainAsteroid: {fileID: 114696641566056816, guid: 37d2486f7b5630840a77faa12271927e,
-    type: 2}
+  mainAsteroid: {fileID: 114221351320257564}
   hitForceBig: 100
   hitForceHuge: 20
   particleTrail: {fileID: 198359695621395498, guid: d57ecc90b7279154693db17bf1e0b76e,
@@ -11144,8 +11129,7 @@ MonoBehaviour:
   rotationSpeed: 0
   isActive: 0
   randomVector: {x: 0, y: 0, z: 0}
-  mainAsteroid: {fileID: 114696641566056816, guid: 37d2486f7b5630840a77faa12271927e,
-    type: 2}
+  mainAsteroid: {fileID: 114221351320257564}
   hitForceBig: 100
   hitForceHuge: 20
   particleTrail: {fileID: 198359695621395498, guid: d57ecc90b7279154693db17bf1e0b76e,
@@ -11210,8 +11194,7 @@ MonoBehaviour:
   rotationSpeed: 0
   isActive: 0
   randomVector: {x: 0, y: 0, z: 0}
-  mainAsteroid: {fileID: 114696641566056816, guid: 37d2486f7b5630840a77faa12271927e,
-    type: 2}
+  mainAsteroid: {fileID: 114221351320257564}
   hitForceBig: 100
   hitForceHuge: 20
   particleTrail: {fileID: 198359695621395498, guid: d57ecc90b7279154693db17bf1e0b76e,
@@ -11232,8 +11215,7 @@ MonoBehaviour:
   rotationSpeed: 0
   isActive: 0
   randomVector: {x: 0, y: 0, z: 0}
-  mainAsteroid: {fileID: 114696641566056816, guid: 37d2486f7b5630840a77faa12271927e,
-    type: 2}
+  mainAsteroid: {fileID: 114221351320257564}
   hitForceBig: 100
   hitForceHuge: 20
   particleTrail: {fileID: 198359695621395498, guid: d57ecc90b7279154693db17bf1e0b76e,
@@ -11254,8 +11236,7 @@ MonoBehaviour:
   rotationSpeed: 0
   isActive: 0
   randomVector: {x: 0, y: 0, z: 0}
-  mainAsteroid: {fileID: 114696641566056816, guid: 37d2486f7b5630840a77faa12271927e,
-    type: 2}
+  mainAsteroid: {fileID: 114221351320257564}
   hitForceBig: 100
   hitForceHuge: 20
   particleTrail: {fileID: 198359695621395498, guid: d57ecc90b7279154693db17bf1e0b76e,
@@ -11287,8 +11268,7 @@ MonoBehaviour:
   rotationSpeed: 0
   isActive: 0
   randomVector: {x: 0, y: 0, z: 0}
-  mainAsteroid: {fileID: 114696641566056816, guid: 37d2486f7b5630840a77faa12271927e,
-    type: 2}
+  mainAsteroid: {fileID: 114221351320257564}
   hitForceBig: 100
   hitForceHuge: 20
   particleTrail: {fileID: 198359695621395498, guid: d57ecc90b7279154693db17bf1e0b76e,
@@ -11320,8 +11300,7 @@ MonoBehaviour:
   rotationSpeed: 0
   isActive: 0
   randomVector: {x: 0, y: 0, z: 0}
-  mainAsteroid: {fileID: 114696641566056816, guid: 37d2486f7b5630840a77faa12271927e,
-    type: 2}
+  mainAsteroid: {fileID: 114221351320257564}
   hitForceBig: 100
   hitForceHuge: 20
   particleTrail: {fileID: 198359695621395498, guid: d57ecc90b7279154693db17bf1e0b76e,
@@ -11364,8 +11343,7 @@ MonoBehaviour:
   rotationSpeed: 0
   isActive: 0
   randomVector: {x: 0, y: 0, z: 0}
-  mainAsteroid: {fileID: 114696641566056816, guid: 37d2486f7b5630840a77faa12271927e,
-    type: 2}
+  mainAsteroid: {fileID: 114221351320257564}
   hitForceBig: 100
   hitForceHuge: 20
   particleTrail: {fileID: 198359695621395498, guid: d57ecc90b7279154693db17bf1e0b76e,
@@ -11408,8 +11386,7 @@ MonoBehaviour:
   rotationSpeed: 0
   isActive: 0
   randomVector: {x: 0, y: 0, z: 0}
-  mainAsteroid: {fileID: 114696641566056816, guid: 37d2486f7b5630840a77faa12271927e,
-    type: 2}
+  mainAsteroid: {fileID: 114221351320257564}
   hitForceBig: 100
   hitForceHuge: 20
   particleTrail: {fileID: 198359695621395498, guid: d57ecc90b7279154693db17bf1e0b76e,
@@ -11430,8 +11407,7 @@ MonoBehaviour:
   rotationSpeed: 0
   isActive: 0
   randomVector: {x: 0, y: 0, z: 0}
-  mainAsteroid: {fileID: 114696641566056816, guid: 37d2486f7b5630840a77faa12271927e,
-    type: 2}
+  mainAsteroid: {fileID: 114221351320257564}
   hitForceBig: 100
   hitForceHuge: 20
   particleTrail: {fileID: 198359695621395498, guid: d57ecc90b7279154693db17bf1e0b76e,
@@ -11452,8 +11428,7 @@ MonoBehaviour:
   rotationSpeed: 0
   isActive: 0
   randomVector: {x: 0, y: 0, z: 0}
-  mainAsteroid: {fileID: 114696641566056816, guid: 37d2486f7b5630840a77faa12271927e,
-    type: 2}
+  mainAsteroid: {fileID: 114221351320257564}
   hitForceBig: 100
   hitForceHuge: 20
   particleTrail: {fileID: 198359695621395498, guid: d57ecc90b7279154693db17bf1e0b76e,
@@ -11504,8 +11479,7 @@ MonoBehaviour:
   rotationSpeed: 0
   isActive: 0
   randomVector: {x: 0, y: 0, z: 0}
-  mainAsteroid: {fileID: 114696641566056816, guid: 37d2486f7b5630840a77faa12271927e,
-    type: 2}
+  mainAsteroid: {fileID: 114221351320257564}
   hitForceBig: 100
   hitForceHuge: 20
   particleTrail: {fileID: 198359695621395498, guid: d57ecc90b7279154693db17bf1e0b76e,
@@ -11526,8 +11500,7 @@ MonoBehaviour:
   rotationSpeed: 0
   isActive: 0
   randomVector: {x: 0, y: 0, z: 0}
-  mainAsteroid: {fileID: 114696641566056816, guid: 37d2486f7b5630840a77faa12271927e,
-    type: 2}
+  mainAsteroid: {fileID: 114221351320257564}
   hitForceBig: 100
   hitForceHuge: 20
   particleTrail: {fileID: 198359695621395498, guid: d57ecc90b7279154693db17bf1e0b76e,
@@ -11581,8 +11554,7 @@ MonoBehaviour:
   rotationSpeed: 0
   isActive: 0
   randomVector: {x: 0, y: 0, z: 0}
-  mainAsteroid: {fileID: 114696641566056816, guid: 37d2486f7b5630840a77faa12271927e,
-    type: 2}
+  mainAsteroid: {fileID: 114221351320257564}
   hitForceBig: 100
   hitForceHuge: 20
   particleTrail: {fileID: 198359695621395498, guid: d57ecc90b7279154693db17bf1e0b76e,
@@ -11603,8 +11575,7 @@ MonoBehaviour:
   rotationSpeed: 0
   isActive: 0
   randomVector: {x: 0, y: 0, z: 0}
-  mainAsteroid: {fileID: 114696641566056816, guid: 37d2486f7b5630840a77faa12271927e,
-    type: 2}
+  mainAsteroid: {fileID: 114221351320257564}
   hitForceBig: 100
   hitForceHuge: 20
   particleTrail: {fileID: 198359695621395498, guid: d57ecc90b7279154693db17bf1e0b76e,
@@ -11636,8 +11607,7 @@ MonoBehaviour:
   rotationSpeed: 0
   isActive: 0
   randomVector: {x: 0, y: 0, z: 0}
-  mainAsteroid: {fileID: 114696641566056816, guid: 37d2486f7b5630840a77faa12271927e,
-    type: 2}
+  mainAsteroid: {fileID: 114221351320257564}
   hitForceBig: 100
   hitForceHuge: 20
   particleTrail: {fileID: 198359695621395498, guid: d57ecc90b7279154693db17bf1e0b76e,
@@ -11658,8 +11628,7 @@ MonoBehaviour:
   rotationSpeed: 0
   isActive: 0
   randomVector: {x: 0, y: 0, z: 0}
-  mainAsteroid: {fileID: 114696641566056816, guid: 37d2486f7b5630840a77faa12271927e,
-    type: 2}
+  mainAsteroid: {fileID: 114221351320257564}
   hitForceBig: 100
   hitForceHuge: 20
   particleTrail: {fileID: 198359695621395498, guid: d57ecc90b7279154693db17bf1e0b76e,
@@ -11680,8 +11649,7 @@ MonoBehaviour:
   rotationSpeed: 0
   isActive: 0
   randomVector: {x: 0, y: 0, z: 0}
-  mainAsteroid: {fileID: 114696641566056816, guid: 37d2486f7b5630840a77faa12271927e,
-    type: 2}
+  mainAsteroid: {fileID: 114221351320257564}
   hitForceBig: 100
   hitForceHuge: 20
   particleTrail: {fileID: 198359695621395498, guid: d57ecc90b7279154693db17bf1e0b76e,
@@ -11702,8 +11670,7 @@ MonoBehaviour:
   rotationSpeed: 0
   isActive: 0
   randomVector: {x: 0, y: 0, z: 0}
-  mainAsteroid: {fileID: 114696641566056816, guid: 37d2486f7b5630840a77faa12271927e,
-    type: 2}
+  mainAsteroid: {fileID: 114221351320257564}
   hitForceBig: 100
   hitForceHuge: 20
   particleTrail: {fileID: 198359695621395498, guid: d57ecc90b7279154693db17bf1e0b76e,
@@ -11724,8 +11691,7 @@ MonoBehaviour:
   rotationSpeed: 0
   isActive: 0
   randomVector: {x: 0, y: 0, z: 0}
-  mainAsteroid: {fileID: 114696641566056816, guid: 37d2486f7b5630840a77faa12271927e,
-    type: 2}
+  mainAsteroid: {fileID: 114221351320257564}
   hitForceBig: 100
   hitForceHuge: 20
   particleTrail: {fileID: 198359695621395498, guid: d57ecc90b7279154693db17bf1e0b76e,
@@ -11746,8 +11712,7 @@ MonoBehaviour:
   rotationSpeed: 0
   isActive: 0
   randomVector: {x: 0, y: 0, z: 0}
-  mainAsteroid: {fileID: 114696641566056816, guid: 37d2486f7b5630840a77faa12271927e,
-    type: 2}
+  mainAsteroid: {fileID: 114221351320257564}
   hitForceBig: 100
   hitForceHuge: 20
   particleTrail: {fileID: 198359695621395498, guid: d57ecc90b7279154693db17bf1e0b76e,
@@ -11768,8 +11733,7 @@ MonoBehaviour:
   rotationSpeed: 0
   isActive: 0
   randomVector: {x: 0, y: 0, z: 0}
-  mainAsteroid: {fileID: 114696641566056816, guid: 37d2486f7b5630840a77faa12271927e,
-    type: 2}
+  mainAsteroid: {fileID: 114221351320257564}
   hitForceBig: 100
   hitForceHuge: 20
   particleTrail: {fileID: 198359695621395498, guid: d57ecc90b7279154693db17bf1e0b76e,
@@ -11801,8 +11765,7 @@ MonoBehaviour:
   rotationSpeed: 0
   isActive: 0
   randomVector: {x: 0, y: 0, z: 0}
-  mainAsteroid: {fileID: 114696641566056816, guid: 37d2486f7b5630840a77faa12271927e,
-    type: 2}
+  mainAsteroid: {fileID: 114221351320257564}
   hitForceBig: 100
   hitForceHuge: 20
   particleTrail: {fileID: 198359695621395498, guid: d57ecc90b7279154693db17bf1e0b76e,
@@ -11823,8 +11786,7 @@ MonoBehaviour:
   rotationSpeed: 0
   isActive: 0
   randomVector: {x: 0, y: 0, z: 0}
-  mainAsteroid: {fileID: 114696641566056816, guid: 37d2486f7b5630840a77faa12271927e,
-    type: 2}
+  mainAsteroid: {fileID: 114221351320257564}
   hitForceBig: 100
   hitForceHuge: 20
   particleTrail: {fileID: 198359695621395498, guid: d57ecc90b7279154693db17bf1e0b76e,
@@ -11856,8 +11818,7 @@ MonoBehaviour:
   rotationSpeed: 0
   isActive: 0
   randomVector: {x: 0, y: 0, z: 0}
-  mainAsteroid: {fileID: 114696641566056816, guid: 37d2486f7b5630840a77faa12271927e,
-    type: 2}
+  mainAsteroid: {fileID: 114221351320257564}
   hitForceBig: 100
   hitForceHuge: 20
   particleTrail: {fileID: 198359695621395498, guid: d57ecc90b7279154693db17bf1e0b76e,
@@ -11878,8 +11839,7 @@ MonoBehaviour:
   rotationSpeed: 0
   isActive: 0
   randomVector: {x: 0, y: 0, z: 0}
-  mainAsteroid: {fileID: 114696641566056816, guid: 37d2486f7b5630840a77faa12271927e,
-    type: 2}
+  mainAsteroid: {fileID: 114221351320257564}
   hitForceBig: 100
   hitForceHuge: 20
   particleTrail: {fileID: 198359695621395498, guid: d57ecc90b7279154693db17bf1e0b76e,
@@ -11944,8 +11904,7 @@ MonoBehaviour:
   rotationSpeed: 0
   isActive: 0
   randomVector: {x: 0, y: 0, z: 0}
-  mainAsteroid: {fileID: 114696641566056816, guid: 37d2486f7b5630840a77faa12271927e,
-    type: 2}
+  mainAsteroid: {fileID: 114221351320257564}
   hitForceBig: 100
   hitForceHuge: 20
   particleTrail: {fileID: 198359695621395498, guid: d57ecc90b7279154693db17bf1e0b76e,
@@ -11966,8 +11925,7 @@ MonoBehaviour:
   rotationSpeed: 0
   isActive: 0
   randomVector: {x: 0, y: 0, z: 0}
-  mainAsteroid: {fileID: 114696641566056816, guid: 37d2486f7b5630840a77faa12271927e,
-    type: 2}
+  mainAsteroid: {fileID: 114221351320257564}
   hitForceBig: 100
   hitForceHuge: 20
   particleTrail: {fileID: 198359695621395498, guid: d57ecc90b7279154693db17bf1e0b76e,
@@ -11999,8 +11957,7 @@ MonoBehaviour:
   rotationSpeed: 0
   isActive: 0
   randomVector: {x: 0, y: 0, z: 0}
-  mainAsteroid: {fileID: 114696641566056816, guid: 37d2486f7b5630840a77faa12271927e,
-    type: 2}
+  mainAsteroid: {fileID: 114221351320257564}
   hitForceBig: 100
   hitForceHuge: 20
   particleTrail: {fileID: 198359695621395498, guid: d57ecc90b7279154693db17bf1e0b76e,
@@ -12021,8 +11978,7 @@ MonoBehaviour:
   rotationSpeed: 0
   isActive: 0
   randomVector: {x: 0, y: 0, z: 0}
-  mainAsteroid: {fileID: 114696641566056816, guid: 37d2486f7b5630840a77faa12271927e,
-    type: 2}
+  mainAsteroid: {fileID: 114221351320257564}
   hitForceBig: 100
   hitForceHuge: 20
   particleTrail: {fileID: 198359695621395498, guid: d57ecc90b7279154693db17bf1e0b76e,
@@ -12043,8 +11999,7 @@ MonoBehaviour:
   rotationSpeed: 0
   isActive: 0
   randomVector: {x: 0, y: 0, z: 0}
-  mainAsteroid: {fileID: 114696641566056816, guid: 37d2486f7b5630840a77faa12271927e,
-    type: 2}
+  mainAsteroid: {fileID: 114221351320257564}
   hitForceBig: 100
   hitForceHuge: 20
   particleTrail: {fileID: 198359695621395498, guid: d57ecc90b7279154693db17bf1e0b76e,
@@ -12065,8 +12020,7 @@ MonoBehaviour:
   rotationSpeed: 0
   isActive: 0
   randomVector: {x: 0, y: 0, z: 0}
-  mainAsteroid: {fileID: 114696641566056816, guid: 37d2486f7b5630840a77faa12271927e,
-    type: 2}
+  mainAsteroid: {fileID: 114221351320257564}
   hitForceBig: 100
   hitForceHuge: 20
   particleTrail: {fileID: 198359695621395498, guid: d57ecc90b7279154693db17bf1e0b76e,
@@ -12098,8 +12052,7 @@ MonoBehaviour:
   rotationSpeed: 0
   isActive: 0
   randomVector: {x: 0, y: 0, z: 0}
-  mainAsteroid: {fileID: 114696641566056816, guid: 37d2486f7b5630840a77faa12271927e,
-    type: 2}
+  mainAsteroid: {fileID: 114221351320257564}
   hitForceBig: 100
   hitForceHuge: 20
   particleTrail: {fileID: 198359695621395498, guid: d57ecc90b7279154693db17bf1e0b76e,
@@ -12120,8 +12073,7 @@ MonoBehaviour:
   rotationSpeed: 0
   isActive: 0
   randomVector: {x: 0, y: 0, z: 0}
-  mainAsteroid: {fileID: 114696641566056816, guid: 37d2486f7b5630840a77faa12271927e,
-    type: 2}
+  mainAsteroid: {fileID: 114221351320257564}
   hitForceBig: 100
   hitForceHuge: 20
   particleTrail: {fileID: 198359695621395498, guid: d57ecc90b7279154693db17bf1e0b76e,
@@ -12164,8 +12116,7 @@ MonoBehaviour:
   rotationSpeed: 0
   isActive: 0
   randomVector: {x: 0, y: 0, z: 0}
-  mainAsteroid: {fileID: 114696641566056816, guid: 37d2486f7b5630840a77faa12271927e,
-    type: 2}
+  mainAsteroid: {fileID: 114221351320257564}
   hitForceBig: 100
   hitForceHuge: 20
   particleTrail: {fileID: 198359695621395498, guid: d57ecc90b7279154693db17bf1e0b76e,
@@ -12186,8 +12137,7 @@ MonoBehaviour:
   rotationSpeed: 0
   isActive: 0
   randomVector: {x: 0, y: 0, z: 0}
-  mainAsteroid: {fileID: 114696641566056816, guid: 37d2486f7b5630840a77faa12271927e,
-    type: 2}
+  mainAsteroid: {fileID: 114221351320257564}
   hitForceBig: 100
   hitForceHuge: 20
   particleTrail: {fileID: 198359695621395498, guid: d57ecc90b7279154693db17bf1e0b76e,
@@ -12208,8 +12158,7 @@ MonoBehaviour:
   rotationSpeed: 0
   isActive: 0
   randomVector: {x: 0, y: 0, z: 0}
-  mainAsteroid: {fileID: 114696641566056816, guid: 37d2486f7b5630840a77faa12271927e,
-    type: 2}
+  mainAsteroid: {fileID: 114221351320257564}
   hitForceBig: 100
   hitForceHuge: 20
   particleTrail: {fileID: 198359695621395498, guid: d57ecc90b7279154693db17bf1e0b76e,
@@ -12230,8 +12179,7 @@ MonoBehaviour:
   rotationSpeed: 0
   isActive: 0
   randomVector: {x: 0, y: 0, z: 0}
-  mainAsteroid: {fileID: 114696641566056816, guid: 37d2486f7b5630840a77faa12271927e,
-    type: 2}
+  mainAsteroid: {fileID: 114221351320257564}
   hitForceBig: 100
   hitForceHuge: 20
   particleTrail: {fileID: 198359695621395498, guid: d57ecc90b7279154693db17bf1e0b76e,
@@ -12252,8 +12200,7 @@ MonoBehaviour:
   rotationSpeed: 0
   isActive: 0
   randomVector: {x: 0, y: 0, z: 0}
-  mainAsteroid: {fileID: 114696641566056816, guid: 37d2486f7b5630840a77faa12271927e,
-    type: 2}
+  mainAsteroid: {fileID: 114221351320257564}
   hitForceBig: 100
   hitForceHuge: 20
   particleTrail: {fileID: 198359695621395498, guid: d57ecc90b7279154693db17bf1e0b76e,
@@ -12351,8 +12298,7 @@ MonoBehaviour:
   rotationSpeed: 0
   isActive: 0
   randomVector: {x: 0, y: 0, z: 0}
-  mainAsteroid: {fileID: 114696641566056816, guid: 37d2486f7b5630840a77faa12271927e,
-    type: 2}
+  mainAsteroid: {fileID: 114221351320257564}
   hitForceBig: 100
   hitForceHuge: 20
   particleTrail: {fileID: 198359695621395498, guid: d57ecc90b7279154693db17bf1e0b76e,
@@ -12373,8 +12319,7 @@ MonoBehaviour:
   rotationSpeed: 0
   isActive: 0
   randomVector: {x: 0, y: 0, z: 0}
-  mainAsteroid: {fileID: 114696641566056816, guid: 37d2486f7b5630840a77faa12271927e,
-    type: 2}
+  mainAsteroid: {fileID: 114221351320257564}
   hitForceBig: 100
   hitForceHuge: 20
   particleTrail: {fileID: 198359695621395498, guid: d57ecc90b7279154693db17bf1e0b76e,
@@ -12395,8 +12340,7 @@ MonoBehaviour:
   rotationSpeed: 0
   isActive: 0
   randomVector: {x: 0, y: 0, z: 0}
-  mainAsteroid: {fileID: 114696641566056816, guid: 37d2486f7b5630840a77faa12271927e,
-    type: 2}
+  mainAsteroid: {fileID: 114221351320257564}
   hitForceBig: 100
   hitForceHuge: 20
   particleTrail: {fileID: 198359695621395498, guid: d57ecc90b7279154693db17bf1e0b76e,
@@ -12428,8 +12372,7 @@ MonoBehaviour:
   rotationSpeed: 0
   isActive: 0
   randomVector: {x: 0, y: 0, z: 0}
-  mainAsteroid: {fileID: 114696641566056816, guid: 37d2486f7b5630840a77faa12271927e,
-    type: 2}
+  mainAsteroid: {fileID: 114221351320257564}
   hitForceBig: 100
   hitForceHuge: 20
   particleTrail: {fileID: 198359695621395498, guid: d57ecc90b7279154693db17bf1e0b76e,
@@ -12461,8 +12404,7 @@ MonoBehaviour:
   rotationSpeed: 0
   isActive: 0
   randomVector: {x: 0, y: 0, z: 0}
-  mainAsteroid: {fileID: 114696641566056816, guid: 37d2486f7b5630840a77faa12271927e,
-    type: 2}
+  mainAsteroid: {fileID: 114221351320257564}
   hitForceBig: 100
   hitForceHuge: 20
   particleTrail: {fileID: 198359695621395498, guid: d57ecc90b7279154693db17bf1e0b76e,
@@ -12483,8 +12425,7 @@ MonoBehaviour:
   rotationSpeed: 0
   isActive: 0
   randomVector: {x: 0, y: 0, z: 0}
-  mainAsteroid: {fileID: 114696641566056816, guid: 37d2486f7b5630840a77faa12271927e,
-    type: 2}
+  mainAsteroid: {fileID: 114221351320257564}
   hitForceBig: 100
   hitForceHuge: 20
   particleTrail: {fileID: 198359695621395498, guid: d57ecc90b7279154693db17bf1e0b76e,
@@ -12505,8 +12446,7 @@ MonoBehaviour:
   rotationSpeed: 0
   isActive: 0
   randomVector: {x: 0, y: 0, z: 0}
-  mainAsteroid: {fileID: 114696641566056816, guid: 37d2486f7b5630840a77faa12271927e,
-    type: 2}
+  mainAsteroid: {fileID: 114221351320257564}
   hitForceBig: 100
   hitForceHuge: 20
   particleTrail: {fileID: 198359695621395498, guid: d57ecc90b7279154693db17bf1e0b76e,
@@ -12527,8 +12467,7 @@ MonoBehaviour:
   rotationSpeed: 0
   isActive: 0
   randomVector: {x: 0, y: 0, z: 0}
-  mainAsteroid: {fileID: 114696641566056816, guid: 37d2486f7b5630840a77faa12271927e,
-    type: 2}
+  mainAsteroid: {fileID: 114221351320257564}
   hitForceBig: 100
   hitForceHuge: 20
   particleTrail: {fileID: 198359695621395498, guid: d57ecc90b7279154693db17bf1e0b76e,
@@ -12549,8 +12488,7 @@ MonoBehaviour:
   rotationSpeed: 0
   isActive: 0
   randomVector: {x: 0, y: 0, z: 0}
-  mainAsteroid: {fileID: 114696641566056816, guid: 37d2486f7b5630840a77faa12271927e,
-    type: 2}
+  mainAsteroid: {fileID: 114221351320257564}
   hitForceBig: 100
   hitForceHuge: 20
   particleTrail: {fileID: 198359695621395498, guid: d57ecc90b7279154693db17bf1e0b76e,
@@ -12571,8 +12509,7 @@ MonoBehaviour:
   rotationSpeed: 0
   isActive: 0
   randomVector: {x: 0, y: 0, z: 0}
-  mainAsteroid: {fileID: 114696641566056816, guid: 37d2486f7b5630840a77faa12271927e,
-    type: 2}
+  mainAsteroid: {fileID: 114221351320257564}
   hitForceBig: 100
   hitForceHuge: 20
   particleTrail: {fileID: 198359695621395498, guid: d57ecc90b7279154693db17bf1e0b76e,
@@ -12593,8 +12530,7 @@ MonoBehaviour:
   rotationSpeed: 0
   isActive: 0
   randomVector: {x: 0, y: 0, z: 0}
-  mainAsteroid: {fileID: 114696641566056816, guid: 37d2486f7b5630840a77faa12271927e,
-    type: 2}
+  mainAsteroid: {fileID: 114221351320257564}
   hitForceBig: 100
   hitForceHuge: 20
   particleTrail: {fileID: 198359695621395498, guid: d57ecc90b7279154693db17bf1e0b76e,
@@ -12615,8 +12551,7 @@ MonoBehaviour:
   rotationSpeed: 0
   isActive: 0
   randomVector: {x: 0, y: 0, z: 0}
-  mainAsteroid: {fileID: 114696641566056816, guid: 37d2486f7b5630840a77faa12271927e,
-    type: 2}
+  mainAsteroid: {fileID: 114221351320257564}
   hitForceBig: 100
   hitForceHuge: 20
   particleTrail: {fileID: 198359695621395498, guid: d57ecc90b7279154693db17bf1e0b76e,
@@ -12637,8 +12572,7 @@ MonoBehaviour:
   rotationSpeed: 0
   isActive: 0
   randomVector: {x: 0, y: 0, z: 0}
-  mainAsteroid: {fileID: 114696641566056816, guid: 37d2486f7b5630840a77faa12271927e,
-    type: 2}
+  mainAsteroid: {fileID: 114221351320257564}
   hitForceBig: 100
   hitForceHuge: 20
   particleTrail: {fileID: 198359695621395498, guid: d57ecc90b7279154693db17bf1e0b76e,
@@ -12659,8 +12593,7 @@ MonoBehaviour:
   rotationSpeed: 0
   isActive: 0
   randomVector: {x: 0, y: 0, z: 0}
-  mainAsteroid: {fileID: 114696641566056816, guid: 37d2486f7b5630840a77faa12271927e,
-    type: 2}
+  mainAsteroid: {fileID: 114221351320257564}
   hitForceBig: 100
   hitForceHuge: 20
   particleTrail: {fileID: 198359695621395498, guid: d57ecc90b7279154693db17bf1e0b76e,
@@ -12725,8 +12658,7 @@ MonoBehaviour:
   rotationSpeed: 0
   isActive: 0
   randomVector: {x: 0, y: 0, z: 0}
-  mainAsteroid: {fileID: 114696641566056816, guid: 37d2486f7b5630840a77faa12271927e,
-    type: 2}
+  mainAsteroid: {fileID: 114221351320257564}
   hitForceBig: 100
   hitForceHuge: 20
   particleTrail: {fileID: 198359695621395498, guid: d57ecc90b7279154693db17bf1e0b76e,
@@ -12758,8 +12690,7 @@ MonoBehaviour:
   rotationSpeed: 0
   isActive: 0
   randomVector: {x: 0, y: 0, z: 0}
-  mainAsteroid: {fileID: 114696641566056816, guid: 37d2486f7b5630840a77faa12271927e,
-    type: 2}
+  mainAsteroid: {fileID: 114221351320257564}
   hitForceBig: 100
   hitForceHuge: 20
   particleTrail: {fileID: 198359695621395498, guid: d57ecc90b7279154693db17bf1e0b76e,
@@ -12802,8 +12733,7 @@ MonoBehaviour:
   rotationSpeed: 0
   isActive: 0
   randomVector: {x: 0, y: 0, z: 0}
-  mainAsteroid: {fileID: 114696641566056816, guid: 37d2486f7b5630840a77faa12271927e,
-    type: 2}
+  mainAsteroid: {fileID: 114221351320257564}
   hitForceBig: 100
   hitForceHuge: 20
   particleTrail: {fileID: 198359695621395498, guid: d57ecc90b7279154693db17bf1e0b76e,
@@ -12846,8 +12776,7 @@ MonoBehaviour:
   rotationSpeed: 0
   isActive: 0
   randomVector: {x: 0, y: 0, z: 0}
-  mainAsteroid: {fileID: 114696641566056816, guid: 37d2486f7b5630840a77faa12271927e,
-    type: 2}
+  mainAsteroid: {fileID: 114221351320257564}
   hitForceBig: 100
   hitForceHuge: 20
   particleTrail: {fileID: 198359695621395498, guid: d57ecc90b7279154693db17bf1e0b76e,
@@ -12890,8 +12819,7 @@ MonoBehaviour:
   rotationSpeed: 0
   isActive: 0
   randomVector: {x: 0, y: 0, z: 0}
-  mainAsteroid: {fileID: 114696641566056816, guid: 37d2486f7b5630840a77faa12271927e,
-    type: 2}
+  mainAsteroid: {fileID: 114221351320257564}
   hitForceBig: 100
   hitForceHuge: 20
   particleTrail: {fileID: 198359695621395498, guid: d57ecc90b7279154693db17bf1e0b76e,
@@ -12923,8 +12851,7 @@ MonoBehaviour:
   rotationSpeed: 0
   isActive: 0
   randomVector: {x: 0, y: 0, z: 0}
-  mainAsteroid: {fileID: 114696641566056816, guid: 37d2486f7b5630840a77faa12271927e,
-    type: 2}
+  mainAsteroid: {fileID: 114221351320257564}
   hitForceBig: 100
   hitForceHuge: 20
   particleTrail: {fileID: 198359695621395498, guid: d57ecc90b7279154693db17bf1e0b76e,
@@ -12945,8 +12872,7 @@ MonoBehaviour:
   rotationSpeed: 0
   isActive: 0
   randomVector: {x: 0, y: 0, z: 0}
-  mainAsteroid: {fileID: 114696641566056816, guid: 37d2486f7b5630840a77faa12271927e,
-    type: 2}
+  mainAsteroid: {fileID: 114221351320257564}
   hitForceBig: 100
   hitForceHuge: 20
   particleTrail: {fileID: 198359695621395498, guid: d57ecc90b7279154693db17bf1e0b76e,
@@ -12978,8 +12904,7 @@ MonoBehaviour:
   rotationSpeed: 0
   isActive: 0
   randomVector: {x: 0, y: 0, z: 0}
-  mainAsteroid: {fileID: 114696641566056816, guid: 37d2486f7b5630840a77faa12271927e,
-    type: 2}
+  mainAsteroid: {fileID: 114221351320257564}
   hitForceBig: 100
   hitForceHuge: 20
   particleTrail: {fileID: 198359695621395498, guid: d57ecc90b7279154693db17bf1e0b76e,
@@ -13066,8 +12991,7 @@ MonoBehaviour:
   rotationSpeed: 0
   isActive: 0
   randomVector: {x: 0, y: 0, z: 0}
-  mainAsteroid: {fileID: 114696641566056816, guid: 37d2486f7b5630840a77faa12271927e,
-    type: 2}
+  mainAsteroid: {fileID: 114221351320257564}
   hitForceBig: 100
   hitForceHuge: 20
   particleTrail: {fileID: 198359695621395498, guid: d57ecc90b7279154693db17bf1e0b76e,
@@ -13088,8 +13012,7 @@ MonoBehaviour:
   rotationSpeed: 0
   isActive: 0
   randomVector: {x: 0, y: 0, z: 0}
-  mainAsteroid: {fileID: 114696641566056816, guid: 37d2486f7b5630840a77faa12271927e,
-    type: 2}
+  mainAsteroid: {fileID: 114221351320257564}
   hitForceBig: 100
   hitForceHuge: 20
   particleTrail: {fileID: 198359695621395498, guid: d57ecc90b7279154693db17bf1e0b76e,
@@ -13154,8 +13077,7 @@ MonoBehaviour:
   rotationSpeed: 0
   isActive: 0
   randomVector: {x: 0, y: 0, z: 0}
-  mainAsteroid: {fileID: 114696641566056816, guid: 37d2486f7b5630840a77faa12271927e,
-    type: 2}
+  mainAsteroid: {fileID: 114221351320257564}
   hitForceBig: 100
   hitForceHuge: 20
   particleTrail: {fileID: 198359695621395498, guid: d57ecc90b7279154693db17bf1e0b76e,
@@ -13198,8 +13120,7 @@ MonoBehaviour:
   rotationSpeed: 0
   isActive: 0
   randomVector: {x: 0, y: 0, z: 0}
-  mainAsteroid: {fileID: 114696641566056816, guid: 37d2486f7b5630840a77faa12271927e,
-    type: 2}
+  mainAsteroid: {fileID: 114221351320257564}
   hitForceBig: 100
   hitForceHuge: 20
   particleTrail: {fileID: 198359695621395498, guid: d57ecc90b7279154693db17bf1e0b76e,
@@ -13242,8 +13163,7 @@ MonoBehaviour:
   rotationSpeed: 0
   isActive: 0
   randomVector: {x: 0, y: 0, z: 0}
-  mainAsteroid: {fileID: 114696641566056816, guid: 37d2486f7b5630840a77faa12271927e,
-    type: 2}
+  mainAsteroid: {fileID: 114221351320257564}
   hitForceBig: 100
   hitForceHuge: 20
   particleTrail: {fileID: 198359695621395498, guid: d57ecc90b7279154693db17bf1e0b76e,
@@ -13264,8 +13184,7 @@ MonoBehaviour:
   rotationSpeed: 0
   isActive: 0
   randomVector: {x: 0, y: 0, z: 0}
-  mainAsteroid: {fileID: 114696641566056816, guid: 37d2486f7b5630840a77faa12271927e,
-    type: 2}
+  mainAsteroid: {fileID: 114221351320257564}
   hitForceBig: 100
   hitForceHuge: 20
   particleTrail: {fileID: 198359695621395498, guid: d57ecc90b7279154693db17bf1e0b76e,
@@ -13286,8 +13205,7 @@ MonoBehaviour:
   rotationSpeed: 0
   isActive: 0
   randomVector: {x: 0, y: 0, z: 0}
-  mainAsteroid: {fileID: 114696641566056816, guid: 37d2486f7b5630840a77faa12271927e,
-    type: 2}
+  mainAsteroid: {fileID: 114221351320257564}
   hitForceBig: 100
   hitForceHuge: 20
   particleTrail: {fileID: 198359695621395498, guid: d57ecc90b7279154693db17bf1e0b76e,
@@ -13319,8 +13237,7 @@ MonoBehaviour:
   rotationSpeed: 0
   isActive: 0
   randomVector: {x: 0, y: 0, z: 0}
-  mainAsteroid: {fileID: 114696641566056816, guid: 37d2486f7b5630840a77faa12271927e,
-    type: 2}
+  mainAsteroid: {fileID: 114221351320257564}
   hitForceBig: 100
   hitForceHuge: 20
   particleTrail: {fileID: 198359695621395498, guid: d57ecc90b7279154693db17bf1e0b76e,
@@ -13341,8 +13258,7 @@ MonoBehaviour:
   rotationSpeed: 0
   isActive: 0
   randomVector: {x: 0, y: 0, z: 0}
-  mainAsteroid: {fileID: 114696641566056816, guid: 37d2486f7b5630840a77faa12271927e,
-    type: 2}
+  mainAsteroid: {fileID: 114221351320257564}
   hitForceBig: 100
   hitForceHuge: 20
   particleTrail: {fileID: 198359695621395498, guid: d57ecc90b7279154693db17bf1e0b76e,
@@ -13363,8 +13279,7 @@ MonoBehaviour:
   rotationSpeed: 0
   isActive: 0
   randomVector: {x: 0, y: 0, z: 0}
-  mainAsteroid: {fileID: 114696641566056816, guid: 37d2486f7b5630840a77faa12271927e,
-    type: 2}
+  mainAsteroid: {fileID: 114221351320257564}
   hitForceBig: 100
   hitForceHuge: 20
   particleTrail: {fileID: 198359695621395498, guid: d57ecc90b7279154693db17bf1e0b76e,
@@ -13429,8 +13344,7 @@ MonoBehaviour:
   rotationSpeed: 0
   isActive: 0
   randomVector: {x: 0, y: 0, z: 0}
-  mainAsteroid: {fileID: 114696641566056816, guid: 37d2486f7b5630840a77faa12271927e,
-    type: 2}
+  mainAsteroid: {fileID: 114221351320257564}
   hitForceBig: 100
   hitForceHuge: 20
   particleTrail: {fileID: 198359695621395498, guid: d57ecc90b7279154693db17bf1e0b76e,
@@ -13473,8 +13387,7 @@ MonoBehaviour:
   rotationSpeed: 0
   isActive: 0
   randomVector: {x: 0, y: 0, z: 0}
-  mainAsteroid: {fileID: 114696641566056816, guid: 37d2486f7b5630840a77faa12271927e,
-    type: 2}
+  mainAsteroid: {fileID: 114221351320257564}
   hitForceBig: 100
   hitForceHuge: 20
   particleTrail: {fileID: 198359695621395498, guid: d57ecc90b7279154693db17bf1e0b76e,
@@ -13506,8 +13419,7 @@ MonoBehaviour:
   rotationSpeed: 0
   isActive: 0
   randomVector: {x: 0, y: 0, z: 0}
-  mainAsteroid: {fileID: 114696641566056816, guid: 37d2486f7b5630840a77faa12271927e,
-    type: 2}
+  mainAsteroid: {fileID: 114221351320257564}
   hitForceBig: 100
   hitForceHuge: 20
   particleTrail: {fileID: 198359695621395498, guid: d57ecc90b7279154693db17bf1e0b76e,
@@ -13539,8 +13451,7 @@ MonoBehaviour:
   rotationSpeed: 0
   isActive: 0
   randomVector: {x: 0, y: 0, z: 0}
-  mainAsteroid: {fileID: 114696641566056816, guid: 37d2486f7b5630840a77faa12271927e,
-    type: 2}
+  mainAsteroid: {fileID: 114221351320257564}
   hitForceBig: 100
   hitForceHuge: 20
   particleTrail: {fileID: 198359695621395498, guid: d57ecc90b7279154693db17bf1e0b76e,
@@ -13594,8 +13505,7 @@ MonoBehaviour:
   rotationSpeed: 0
   isActive: 0
   randomVector: {x: 0, y: 0, z: 0}
-  mainAsteroid: {fileID: 114696641566056816, guid: 37d2486f7b5630840a77faa12271927e,
-    type: 2}
+  mainAsteroid: {fileID: 114221351320257564}
   hitForceBig: 100
   hitForceHuge: 20
   particleTrail: {fileID: 198359695621395498, guid: d57ecc90b7279154693db17bf1e0b76e,
@@ -13616,8 +13526,7 @@ MonoBehaviour:
   rotationSpeed: 0
   isActive: 0
   randomVector: {x: 0, y: 0, z: 0}
-  mainAsteroid: {fileID: 114696641566056816, guid: 37d2486f7b5630840a77faa12271927e,
-    type: 2}
+  mainAsteroid: {fileID: 114221351320257564}
   hitForceBig: 100
   hitForceHuge: 20
   particleTrail: {fileID: 198359695621395498, guid: d57ecc90b7279154693db17bf1e0b76e,
@@ -13660,8 +13569,7 @@ MonoBehaviour:
   rotationSpeed: 0
   isActive: 0
   randomVector: {x: 0, y: 0, z: 0}
-  mainAsteroid: {fileID: 114696641566056816, guid: 37d2486f7b5630840a77faa12271927e,
-    type: 2}
+  mainAsteroid: {fileID: 114221351320257564}
   hitForceBig: 100
   hitForceHuge: 20
   particleTrail: {fileID: 198359695621395498, guid: d57ecc90b7279154693db17bf1e0b76e,
@@ -13704,8 +13612,7 @@ MonoBehaviour:
   rotationSpeed: 0
   isActive: 0
   randomVector: {x: 0, y: 0, z: 0}
-  mainAsteroid: {fileID: 114696641566056816, guid: 37d2486f7b5630840a77faa12271927e,
-    type: 2}
+  mainAsteroid: {fileID: 114221351320257564}
   hitForceBig: 100
   hitForceHuge: 20
   particleTrail: {fileID: 198359695621395498, guid: d57ecc90b7279154693db17bf1e0b76e,
@@ -13737,8 +13644,7 @@ MonoBehaviour:
   rotationSpeed: 0
   isActive: 0
   randomVector: {x: 0, y: 0, z: 0}
-  mainAsteroid: {fileID: 114696641566056816, guid: 37d2486f7b5630840a77faa12271927e,
-    type: 2}
+  mainAsteroid: {fileID: 114221351320257564}
   hitForceBig: 100
   hitForceHuge: 20
   particleTrail: {fileID: 198359695621395498, guid: d57ecc90b7279154693db17bf1e0b76e,
@@ -13759,8 +13665,7 @@ MonoBehaviour:
   rotationSpeed: 0
   isActive: 0
   randomVector: {x: 0, y: 0, z: 0}
-  mainAsteroid: {fileID: 114696641566056816, guid: 37d2486f7b5630840a77faa12271927e,
-    type: 2}
+  mainAsteroid: {fileID: 114221351320257564}
   hitForceBig: 100
   hitForceHuge: 20
   particleTrail: {fileID: 198359695621395498, guid: d57ecc90b7279154693db17bf1e0b76e,
@@ -13781,8 +13686,7 @@ MonoBehaviour:
   rotationSpeed: 0
   isActive: 0
   randomVector: {x: 0, y: 0, z: 0}
-  mainAsteroid: {fileID: 114696641566056816, guid: 37d2486f7b5630840a77faa12271927e,
-    type: 2}
+  mainAsteroid: {fileID: 114221351320257564}
   hitForceBig: 100
   hitForceHuge: 20
   particleTrail: {fileID: 198359695621395498, guid: d57ecc90b7279154693db17bf1e0b76e,
@@ -13836,8 +13740,7 @@ MonoBehaviour:
   rotationSpeed: 0
   isActive: 0
   randomVector: {x: 0, y: 0, z: 0}
-  mainAsteroid: {fileID: 114696641566056816, guid: 37d2486f7b5630840a77faa12271927e,
-    type: 2}
+  mainAsteroid: {fileID: 114221351320257564}
   hitForceBig: 100
   hitForceHuge: 20
   particleTrail: {fileID: 198359695621395498, guid: d57ecc90b7279154693db17bf1e0b76e,
@@ -13869,8 +13772,7 @@ MonoBehaviour:
   rotationSpeed: 0
   isActive: 0
   randomVector: {x: 0, y: 0, z: 0}
-  mainAsteroid: {fileID: 114696641566056816, guid: 37d2486f7b5630840a77faa12271927e,
-    type: 2}
+  mainAsteroid: {fileID: 114221351320257564}
   hitForceBig: 100
   hitForceHuge: 20
   particleTrail: {fileID: 198359695621395498, guid: d57ecc90b7279154693db17bf1e0b76e,
@@ -13891,8 +13793,7 @@ MonoBehaviour:
   rotationSpeed: 0
   isActive: 0
   randomVector: {x: 0, y: 0, z: 0}
-  mainAsteroid: {fileID: 114696641566056816, guid: 37d2486f7b5630840a77faa12271927e,
-    type: 2}
+  mainAsteroid: {fileID: 114221351320257564}
   hitForceBig: 100
   hitForceHuge: 20
   particleTrail: {fileID: 198359695621395498, guid: d57ecc90b7279154693db17bf1e0b76e,
@@ -13913,8 +13814,7 @@ MonoBehaviour:
   rotationSpeed: 0
   isActive: 0
   randomVector: {x: 0, y: 0, z: 0}
-  mainAsteroid: {fileID: 114696641566056816, guid: 37d2486f7b5630840a77faa12271927e,
-    type: 2}
+  mainAsteroid: {fileID: 114221351320257564}
   hitForceBig: 100
   hitForceHuge: 20
   particleTrail: {fileID: 198359695621395498, guid: d57ecc90b7279154693db17bf1e0b76e,
@@ -13935,8 +13835,7 @@ MonoBehaviour:
   rotationSpeed: 0
   isActive: 0
   randomVector: {x: 0, y: 0, z: 0}
-  mainAsteroid: {fileID: 114696641566056816, guid: 37d2486f7b5630840a77faa12271927e,
-    type: 2}
+  mainAsteroid: {fileID: 114221351320257564}
   hitForceBig: 100
   hitForceHuge: 20
   particleTrail: {fileID: 198359695621395498, guid: d57ecc90b7279154693db17bf1e0b76e,
@@ -13957,8 +13856,7 @@ MonoBehaviour:
   rotationSpeed: 0
   isActive: 0
   randomVector: {x: 0, y: 0, z: 0}
-  mainAsteroid: {fileID: 114696641566056816, guid: 37d2486f7b5630840a77faa12271927e,
-    type: 2}
+  mainAsteroid: {fileID: 114221351320257564}
   hitForceBig: 100
   hitForceHuge: 20
   particleTrail: {fileID: 198359695621395498, guid: d57ecc90b7279154693db17bf1e0b76e,
@@ -13990,8 +13888,7 @@ MonoBehaviour:
   rotationSpeed: 0
   isActive: 0
   randomVector: {x: 0, y: 0, z: 0}
-  mainAsteroid: {fileID: 114696641566056816, guid: 37d2486f7b5630840a77faa12271927e,
-    type: 2}
+  mainAsteroid: {fileID: 114221351320257564}
   hitForceBig: 100
   hitForceHuge: 20
   particleTrail: {fileID: 198359695621395498, guid: d57ecc90b7279154693db17bf1e0b76e,
@@ -14045,8 +13942,7 @@ MonoBehaviour:
   rotationSpeed: 0
   isActive: 0
   randomVector: {x: 0, y: 0, z: 0}
-  mainAsteroid: {fileID: 114696641566056816, guid: 37d2486f7b5630840a77faa12271927e,
-    type: 2}
+  mainAsteroid: {fileID: 114221351320257564}
   hitForceBig: 100
   hitForceHuge: 20
   particleTrail: {fileID: 198359695621395498, guid: d57ecc90b7279154693db17bf1e0b76e,
@@ -14144,8 +14040,7 @@ MonoBehaviour:
   rotationSpeed: 0
   isActive: 0
   randomVector: {x: 0, y: 0, z: 0}
-  mainAsteroid: {fileID: 114696641566056816, guid: 37d2486f7b5630840a77faa12271927e,
-    type: 2}
+  mainAsteroid: {fileID: 114221351320257564}
   hitForceBig: 100
   hitForceHuge: 20
   particleTrail: {fileID: 198359695621395498, guid: d57ecc90b7279154693db17bf1e0b76e,
@@ -14166,8 +14061,7 @@ MonoBehaviour:
   rotationSpeed: 0
   isActive: 0
   randomVector: {x: 0, y: 0, z: 0}
-  mainAsteroid: {fileID: 114696641566056816, guid: 37d2486f7b5630840a77faa12271927e,
-    type: 2}
+  mainAsteroid: {fileID: 114221351320257564}
   hitForceBig: 100
   hitForceHuge: 20
   particleTrail: {fileID: 198359695621395498, guid: d57ecc90b7279154693db17bf1e0b76e,
@@ -14188,8 +14082,7 @@ MonoBehaviour:
   rotationSpeed: 0
   isActive: 0
   randomVector: {x: 0, y: 0, z: 0}
-  mainAsteroid: {fileID: 114696641566056816, guid: 37d2486f7b5630840a77faa12271927e,
-    type: 2}
+  mainAsteroid: {fileID: 114221351320257564}
   hitForceBig: 100
   hitForceHuge: 20
   particleTrail: {fileID: 198359695621395498, guid: d57ecc90b7279154693db17bf1e0b76e,
@@ -14232,8 +14125,7 @@ MonoBehaviour:
   rotationSpeed: 0
   isActive: 0
   randomVector: {x: 0, y: 0, z: 0}
-  mainAsteroid: {fileID: 114696641566056816, guid: 37d2486f7b5630840a77faa12271927e,
-    type: 2}
+  mainAsteroid: {fileID: 114221351320257564}
   hitForceBig: 100
   hitForceHuge: 20
   particleTrail: {fileID: 198359695621395498, guid: d57ecc90b7279154693db17bf1e0b76e,
@@ -14287,8 +14179,7 @@ MonoBehaviour:
   rotationSpeed: 0
   isActive: 0
   randomVector: {x: 0, y: 0, z: 0}
-  mainAsteroid: {fileID: 114696641566056816, guid: 37d2486f7b5630840a77faa12271927e,
-    type: 2}
+  mainAsteroid: {fileID: 114221351320257564}
   hitForceBig: 100
   hitForceHuge: 20
   particleTrail: {fileID: 198359695621395498, guid: d57ecc90b7279154693db17bf1e0b76e,
@@ -14309,8 +14200,7 @@ MonoBehaviour:
   rotationSpeed: 0
   isActive: 0
   randomVector: {x: 0, y: 0, z: 0}
-  mainAsteroid: {fileID: 114696641566056816, guid: 37d2486f7b5630840a77faa12271927e,
-    type: 2}
+  mainAsteroid: {fileID: 114221351320257564}
   hitForceBig: 100
   hitForceHuge: 20
   particleTrail: {fileID: 198359695621395498, guid: d57ecc90b7279154693db17bf1e0b76e,
@@ -14353,8 +14243,7 @@ MonoBehaviour:
   rotationSpeed: 0
   isActive: 0
   randomVector: {x: 0, y: 0, z: 0}
-  mainAsteroid: {fileID: 114696641566056816, guid: 37d2486f7b5630840a77faa12271927e,
-    type: 2}
+  mainAsteroid: {fileID: 114221351320257564}
   hitForceBig: 100
   hitForceHuge: 20
   particleTrail: {fileID: 198359695621395498, guid: d57ecc90b7279154693db17bf1e0b76e,
@@ -14386,8 +14275,7 @@ MonoBehaviour:
   rotationSpeed: 0
   isActive: 0
   randomVector: {x: 0, y: 0, z: 0}
-  mainAsteroid: {fileID: 114696641566056816, guid: 37d2486f7b5630840a77faa12271927e,
-    type: 2}
+  mainAsteroid: {fileID: 114221351320257564}
   hitForceBig: 100
   hitForceHuge: 20
   particleTrail: {fileID: 198359695621395498, guid: d57ecc90b7279154693db17bf1e0b76e,
@@ -14419,8 +14307,7 @@ MonoBehaviour:
   rotationSpeed: 0
   isActive: 0
   randomVector: {x: 0, y: 0, z: 0}
-  mainAsteroid: {fileID: 114696641566056816, guid: 37d2486f7b5630840a77faa12271927e,
-    type: 2}
+  mainAsteroid: {fileID: 114221351320257564}
   hitForceBig: 100
   hitForceHuge: 20
   particleTrail: {fileID: 198359695621395498, guid: d57ecc90b7279154693db17bf1e0b76e,
@@ -14452,8 +14339,7 @@ MonoBehaviour:
   rotationSpeed: 0
   isActive: 0
   randomVector: {x: 0, y: 0, z: 0}
-  mainAsteroid: {fileID: 114696641566056816, guid: 37d2486f7b5630840a77faa12271927e,
-    type: 2}
+  mainAsteroid: {fileID: 114221351320257564}
   hitForceBig: 100
   hitForceHuge: 20
   particleTrail: {fileID: 198359695621395498, guid: d57ecc90b7279154693db17bf1e0b76e,
@@ -14507,8 +14393,7 @@ MonoBehaviour:
   rotationSpeed: 0
   isActive: 0
   randomVector: {x: 0, y: 0, z: 0}
-  mainAsteroid: {fileID: 114696641566056816, guid: 37d2486f7b5630840a77faa12271927e,
-    type: 2}
+  mainAsteroid: {fileID: 114221351320257564}
   hitForceBig: 100
   hitForceHuge: 20
   particleTrail: {fileID: 198359695621395498, guid: d57ecc90b7279154693db17bf1e0b76e,
@@ -14529,8 +14414,7 @@ MonoBehaviour:
   rotationSpeed: 0
   isActive: 0
   randomVector: {x: 0, y: 0, z: 0}
-  mainAsteroid: {fileID: 114696641566056816, guid: 37d2486f7b5630840a77faa12271927e,
-    type: 2}
+  mainAsteroid: {fileID: 114221351320257564}
   hitForceBig: 100
   hitForceHuge: 20
   particleTrail: {fileID: 198359695621395498, guid: d57ecc90b7279154693db17bf1e0b76e,
@@ -14562,8 +14446,7 @@ MonoBehaviour:
   rotationSpeed: 0
   isActive: 0
   randomVector: {x: 0, y: 0, z: 0}
-  mainAsteroid: {fileID: 114696641566056816, guid: 37d2486f7b5630840a77faa12271927e,
-    type: 2}
+  mainAsteroid: {fileID: 114221351320257564}
   hitForceBig: 100
   hitForceHuge: 20
   particleTrail: {fileID: 198359695621395498, guid: d57ecc90b7279154693db17bf1e0b76e,
@@ -14584,8 +14467,7 @@ MonoBehaviour:
   rotationSpeed: 0
   isActive: 0
   randomVector: {x: 0, y: 0, z: 0}
-  mainAsteroid: {fileID: 114696641566056816, guid: 37d2486f7b5630840a77faa12271927e,
-    type: 2}
+  mainAsteroid: {fileID: 114221351320257564}
   hitForceBig: 100
   hitForceHuge: 20
   particleTrail: {fileID: 198359695621395498, guid: d57ecc90b7279154693db17bf1e0b76e,

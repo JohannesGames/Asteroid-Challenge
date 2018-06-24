@@ -1088,8 +1088,7 @@ MonoBehaviour:
   isActive: 0
   randomVector: {x: 0, y: 0, z: 0}
   rb: {fileID: 54127623123653248}
-  allAsteroidChunks:
-  - {fileID: 0}
+  allAsteroidChunks: []
 --- !u!114 &114704154816852106
 MonoBehaviour:
   m_ObjectHideFlags: 1

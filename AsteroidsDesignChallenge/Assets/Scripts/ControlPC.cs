@@ -9,6 +9,10 @@ public class ControlPC : MonoBehaviour
     [SerializeField] Ammo ammunition;
     [Tooltip("How many rounds per second")]
     [SerializeField] float rateofFire;
+    [SerializeField] Transform turret;
+    [SerializeField] Transform barrel;
+    [SerializeField] ParticleSystem weaponFlare;
+    [SerializeField] Transform body;
     float nextShotTime;
 
     [HideInInspector]
@@ -26,6 +30,7 @@ public class ControlPC : MonoBehaviour
     float inputHorizontal;
     float inputVertical;
     Vector3 moveDirection;
+    [SerializeField] ParticleSystem thruster;
 
     // damage
     [Header("Damage")]
@@ -38,7 +43,7 @@ public class ControlPC : MonoBehaviour
 
     void Start()
     {
-
+        body.forward = Vector3.forward;
     }
 
 
@@ -71,22 +76,25 @@ public class ControlPC : MonoBehaviour
         gunDirection = GameManager.gm.mainCamera.ScreenToWorldPoint(Input.mousePosition) - transform.position;
         gunDirection.y = 0;
         gunDirection.Normalize();
+        turret.forward = gunDirection;
 
         // if player is pressing "fire"
         if (GameManager.gm.inGame && Time.time >= nextShotTime && Input.GetMouseButton(0))
         {
             // fire a shot
-            Ammo _ammo = Instantiate(ammunition, transform.position, Quaternion.identity);
+            Ammo _ammo = Instantiate(ammunition, barrel.position, Quaternion.identity);
             _ammo.AmmoStart(gunDirection);
             // set cooldown til next shot
             nextShotTime = Time.time + 1 / rateofFire;
+
+            if (weaponFlare.isStopped) weaponFlare.Play();
         }
 
         // if player is using the movement keys
         inputHorizontal = inputVertical = 0;
         inputHorizontal = Input.GetAxis("Horizontal");
         inputVertical = Input.GetAxis("Vertical");
-
+        
         if (inputHorizontal != 0 || inputVertical != 0)
         {
             moveDirection.x = inputHorizontal;
@@ -95,13 +103,18 @@ public class ControlPC : MonoBehaviour
 
             currentSpeed = movementSpeed;
             stopTimer = 0; // reset timer on input
+            if (thruster.isStopped) thruster.Play();
         }
         else
         {
             // if no movement input slow down PC
             stopTimer += Time.deltaTime;
             currentSpeed = Mathf.Lerp(movementSpeed, 0, stopTimer / timeTilMotionStop);
+            if (thruster.isPlaying) thruster.Stop();
         }
+
+        // lerp  ship body towards movement direction
+        body.forward = Vector3.Lerp(body.forward, moveDirection, Time.deltaTime * 10);
     }
 
     void MovePC()
@@ -140,8 +153,7 @@ public class ControlPC : MonoBehaviour
         {
             wasHit = true;
             chunkHit = hitBy[0].GetComponent<AsteroidChunk>();
-            // if any collision detected
-            Debug.Log("PC hit chunk");
+            // if any collision detected    
             // if PC still has lives remaining
             if (chunkHit && RemoveLife())
             {
@@ -158,6 +170,7 @@ public class ControlPC : MonoBehaviour
                 // if out of lives
                 GameManager.gm.OutOfLives();
             }
+            GameManager.gm.wm.RemoveChunk(chunkHit);
             Destroy(chunkHit.gameObject);
             chunkHit = null;
             Instantiate(GameManager.gm.pcHitParticle, transform.position, Quaternion.identity);

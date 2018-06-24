@@ -16,6 +16,7 @@ public class AsteroidChunk : Asteroid
     void Start()
     {
         mainAsteroid.allAsteroidChunks.Add(this);
+        GameManager.gm.wm.AddChunk(this);
     }
 
     void Update()
@@ -67,7 +68,6 @@ public class AsteroidChunk : Asteroid
             Instantiate(particleTrail, transform);
             // add points and add chunk to wave manager
             GameManager.gm.AddPoints(GameManager.PointEvent.chunkHit);
-            GameManager.gm.wm.AddChunk(this);
             setup = true;
         }
     }
